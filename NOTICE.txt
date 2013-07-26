@@ -1,0 +1,7 @@
+
+Drum App
+Copyright 2013 John J. Fowler
+
+This product includes software developed by John J. Fowler
+for johnscode.com.
+
