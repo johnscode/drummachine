@@ -1,3 +1,9 @@
-Here is a simple drum machine app using the MoMu library from Stanford. The UI is very basic. It needs a little work as I haven't gotten it to handle simultaneous notes (beats, in this case); but it's a good start for someone wanting to add simple note generation to an app.
+Here is a simple drum machine app using the AVFoundation MIDI function. The UI is very basic.
+
+Changes from previous version:
+
+* removed dependance on Momu library given its age and using Apple midi functions and soundfont
+* changed graphics
+* added cymbals supported by soundfont
 
 

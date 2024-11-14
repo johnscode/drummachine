@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520E74202CE5B76300C82129 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 520E741F2CE5B76300C82129 /* README */; };
+		520E74222CE5B83200C82129 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 520E74212CE5B82700C82129 /* License.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52659CF32CE2A242005C9DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52659CD52CE2A241005C9DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52659CDC2CE2A241005C9DAF;
+			remoteInfo = Drum;
+		};
+		52659CFD2CE2A242005C9DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52659CD52CE2A241005C9DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52659CDC2CE2A241005C9DAF;
+			remoteInfo = Drum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520E741F2CE5B76300C82129 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		520E74212CE5B82700C82129 /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		52659CDD2CE2A241005C9DAF /* Drum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52659CF22CE2A242005C9DAF /* DrumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52659CFC2CE2A242005C9DAF /* DrumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		52659D1D2CE2BAD0005C9DAF /* Exceptions for "Drum" folder in "DrumTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/GeneralUser GS MuseScore v1.442.sf2",
+			);
+			target = 52659CF12CE2A242005C9DAF /* DrumTests */;
+		};
+		52659D1E2CE2BAD0005C9DAF /* Exceptions for "Drum" folder in "DrumUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/GeneralUser GS MuseScore v1.442.sf2",
+			);
+			target = 52659CFB2CE2A242005C9DAF /* DrumUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52659CDF2CE2A241005C9DAF /* Drum */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				52659D1D2CE2BAD0005C9DAF /* Exceptions for "Drum" folder in "DrumTests" target */,
+				52659D1E2CE2BAD0005C9DAF /* Exceptions for "Drum" folder in "DrumUITests" target */,
+			);
+			path = Drum;
+			sourceTree = "<group>";
+		};
+		52659CF52CE2A242005C9DAF /* DrumTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DrumTests;
+			sourceTree = "<group>";
+		};
+		52659CFF2CE2A242005C9DAF /* DrumUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DrumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52659CDA2CE2A241005C9DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52659CEF2CE2A242005C9DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52659CF92CE2A242005C9DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52659CD42CE2A241005C9DAF = {
+			isa = PBXGroup;
+			children = (
+				520E74212CE5B82700C82129 /* License.txt */,
+				520E741F2CE5B76300C82129 /* README */,
+				52659CDF2CE2A241005C9DAF /* Drum */,
+				52659CF52CE2A242005C9DAF /* DrumTests */,
+				52659CFF2CE2A242005C9DAF /* DrumUITests */,
+				52659CDE2CE2A241005C9DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52659CDE2CE2A241005C9DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52659CDD2CE2A241005C9DAF /* Drum.app */,
+				52659CF22CE2A242005C9DAF /* DrumTests.xctest */,
+				52659CFC2CE2A242005C9DAF /* DrumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52659CDC2CE2A241005C9DAF /* Drum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52659D062CE2A242005C9DAF /* Build configuration list for PBXNativeTarget "Drum" */;
+			buildPhases = (
+				52659CD92CE2A241005C9DAF /* Sources */,
+				52659CDA2CE2A241005C9DAF /* Frameworks */,
+				52659CDB2CE2A241005C9DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52659CDF2CE2A241005C9DAF /* Drum */,
+			);
+			name = Drum;
+			packageProductDependencies = (
+			);
+			productName = Drum;
+			productReference = 52659CDD2CE2A241005C9DAF /* Drum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52659CF12CE2A242005C9DAF /* DrumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52659D092CE2A242005C9DAF /* Build configuration list for PBXNativeTarget "DrumTests" */;
+			buildPhases = (
+				52659CEE2CE2A242005C9DAF /* Sources */,
+				52659CEF2CE2A242005C9DAF /* Frameworks */,
+				52659CF02CE2A242005C9DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52659CF42CE2A242005C9DAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52659CF52CE2A242005C9DAF /* DrumTests */,
+			);
+			name = DrumTests;
+			packageProductDependencies = (
+			);
+			productName = DrumTests;
+			productReference = 52659CF22CE2A242005C9DAF /* DrumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52659CFB2CE2A242005C9DAF /* DrumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52659D0C2CE2A242005C9DAF /* Build configuration list for PBXNativeTarget "DrumUITests" */;
+			buildPhases = (
+				52659CF82CE2A242005C9DAF /* Sources */,
+				52659CF92CE2A242005C9DAF /* Frameworks */,
+				52659CFA2CE2A242005C9DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52659CFE2CE2A242005C9DAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52659CFF2CE2A242005C9DAF /* DrumUITests */,
+			);
+			name = DrumUITests;
+			packageProductDependencies = (
+			);
+			productName = DrumUITests;
+			productReference = 52659CFC2CE2A242005C9DAF /* DrumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52659CD52CE2A241005C9DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					52659CDC2CE2A241005C9DAF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					52659CF12CE2A242005C9DAF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 52659CDC2CE2A241005C9DAF;
+					};
+					52659CFB2CE2A242005C9DAF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 52659CDC2CE2A241005C9DAF;
+					};
+				};
+			};
+			buildConfigurationList = 52659CD82CE2A241005C9DAF /* Build configuration list for PBXProject "Drum" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52659CD42CE2A241005C9DAF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52659CDE2CE2A241005C9DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52659CDC2CE2A241005C9DAF /* Drum */,
+				52659CF12CE2A242005C9DAF /* DrumTests */,
+				52659CFB2CE2A242005C9DAF /* DrumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52659CDB2CE2A241005C9DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E74202CE5B76300C82129 /* README in Resources */,
+				520E74222CE5B83200C82129 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52659CF02CE2A242005C9DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52659CFA2CE2A242005C9DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52659CD92CE2A241005C9DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52659CEE2CE2A242005C9DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52659CF82CE2A242005C9DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52659CF42CE2A242005C9DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52659CDC2CE2A241005C9DAF /* Drum */;
+			targetProxy = 52659CF32CE2A242005C9DAF /* PBXContainerItemProxy */;
+		};
+		52659CFE2CE2A242005C9DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52659CDC2CE2A241005C9DAF /* Drum */;
+			targetProxy = 52659CFD2CE2A242005C9DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52659D042CE2A242005C9DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52659D052CE2A242005C9DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52659D072CE2A242005C9DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZMU5XU55Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjfowler.Drum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52659D082CE2A242005C9DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZMU5XU55Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjfowler.Drum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52659D0A2CE2A242005C9DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZMU5XU55Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjfowler.DrumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drum";
+			};
+			name = Debug;
+		};
+		52659D0B2CE2A242005C9DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZMU5XU55Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjfowler.DrumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drum";
+			};
+			name = Release;
+		};
+		52659D0D2CE2A242005C9DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZMU5XU55Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjfowler.DrumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Drum;
+			};
+			name = Debug;
+		};
+		52659D0E2CE2A242005C9DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZMU5XU55Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnjfowler.DrumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Drum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52659CD82CE2A241005C9DAF /* Build configuration list for PBXProject "Drum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52659D042CE2A242005C9DAF /* Debug */,
+				52659D052CE2A242005C9DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52659D062CE2A242005C9DAF /* Build configuration list for PBXNativeTarget "Drum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52659D072CE2A242005C9DAF /* Debug */,
+				52659D082CE2A242005C9DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52659D092CE2A242005C9DAF /* Build configuration list for PBXNativeTarget "DrumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52659D0A2CE2A242005C9DAF /* Debug */,
+				52659D0B2CE2A242005C9DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52659D0C2CE2A242005C9DAF /* Build configuration list for PBXNativeTarget "DrumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52659D0D2CE2A242005C9DAF /* Debug */,
+				52659D0E2CE2A242005C9DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52659CD52CE2A241005C9DAF /* Project object */;
+}
