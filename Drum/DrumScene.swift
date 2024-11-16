@@ -57,20 +57,20 @@ class DrumScene: SKScene {
     // snare drum
     snareDrum = createHexDrumPad(radius: 45, color: .white, note: DrumNote.snareDrum)
     snareDrum.position = CGPoint(x: sceneWidth * 0.36,
-                                 y: sceneHeight * 0.4)
+                                 y: sceneHeight * 0.38)
     snareDrum.name = "snare"
     addChild(snareDrum)
     
     // closed hi-hat
     hiHatClosed = createRectDrumPad(width: 75, height: 35, color: .clear, note: DrumNote.closedHiHat, imageName: "closedhihat")
-    hiHatClosed.position = CGPoint(x: sceneWidth * 0.64,
+    hiHatClosed.position = CGPoint(x: sceneWidth * 0.67,
                                    y: sceneHeight * 0.38)
     hiHatClosed.name = "hihatClosed"
     addChild(hiHatClosed)
     
     // Create and position open hi-hat (smaller circle on far right)
     hiHatOpen = createRectDrumPad(width: 75, height: 35, color: .clear, note: DrumNote.openHiHat, imageName: "openhihat")
-    hiHatOpen.position = CGPoint(x: sceneWidth * 0.64,
+    hiHatOpen.position = CGPoint(x: sceneWidth * 0.67,
                                  y: sceneHeight * 0.49)
     hiHatOpen.name = "hihatOpen"
     addChild(hiHatOpen)
@@ -91,16 +91,16 @@ class DrumScene: SKScene {
     
     // Create and position hitom
     hitom = createHexDrumPad(radius: 30, color: .white, note: DrumNote.highTom)
-    hitom.position = CGPoint(x: sceneWidth * 0.45,
-                                 y: sceneHeight * 0.72)
+    hitom.position = CGPoint(x: sceneWidth * 0.505,
+                                 y: sceneHeight * 0.65)
     hitom.name = "hitom"
     addChild(hitom)
     
     
     // Create and position midtom
     midtom = createHexDrumPad(radius: 30, color: .white, note: DrumNote.midTom)
-    midtom.position = CGPoint(x: sceneWidth * 0.52,
-                                 y: sceneHeight * 0.64)
+    midtom.position = CGPoint(x: sceneWidth * 0.56,
+                                 y: sceneHeight * 0.53)
     midtom.name = "midtom"
     addChild(midtom)
     
@@ -108,7 +108,7 @@ class DrumScene: SKScene {
     // Create and position lowtom
     lowtom = createHexDrumPad(radius: 30, color: .white, note: DrumNote.lowTom)
     lowtom.position = CGPoint(x: sceneWidth * 0.45,
-                                 y: sceneHeight * 0.55)
+                                 y: sceneHeight * 0.53)
     lowtom.name = "lowtom"
     addChild(lowtom)
     
