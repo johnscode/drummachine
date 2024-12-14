@@ -2,7 +2,7 @@ Here is a simple drum machine app using the AVFoundation MIDI function. The UI i
 
 ![Snapshot](drummachine-example.png)
 
-![Sample](sample.mp4)
+[Watch a sample video](sample.mp4)
 
 Changes from previous version:
 
