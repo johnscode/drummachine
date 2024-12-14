@@ -1,6 +1,6 @@
 Here is a simple drum machine app using the AVFoundation MIDI function. The UI is very basic.
 
-![UI](drummachine-example.png)
+![UI](./drummachine-example.png)
 
 Changes from previous version:
 
